@@ -1,7 +1,7 @@
 import socket
 
-target = "192.168.1.120"
-port = 9999
+target = "127.0.1.1"
+port = 34937
 
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client.connect((target,port))
